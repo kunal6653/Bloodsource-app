@@ -1,0 +1,76 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<RelativeLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background = "#fff"
+    xmlns:tools = "http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height = "match_parent"
+    tools:context = ".MainActivity"
+    >
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="170dp"
+        android:layout_height="169dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="51dp"
+        android:src="@drawable/def" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="false"
+        android:layout_centerInParent="false"
+        android:layout_centerVertical="false"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="361dp"
+        android:layout_marginRight="2dp"
+        android:text="Receipent Portal"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#F3F1F1"
+        app:backgroundTint="#CF1919" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="false"
+        android:layout_centerInParent="false"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="461dp"
+        android:layout_marginRight="2dp"
+        android:text="Donor Portal"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#F3F1F1"
+        app:backgroundTint="#CF1919" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="false"
+        android:layout_centerInParent="false"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="561dp"
+        android:layout_marginRight="2dp"
+        android:text="Upcoming Donation Camp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#F3F1F1"
+        app:backgroundTint="#CF1919" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginLeft="112dp"
+        android:layout_marginTop="211dp"
+        android:layout_marginRight="2dp"
+        android:text="BLOODSOURCE"
+        android:textColor="#DA0909"
+        android:textSize="25dp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,164 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<RelativeLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background = "#fff"
+    xmlns:tools = "http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height = "match_parent"
+    tools:context = ".MainActivity"
+    >
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="66dp"
+        android:layout_height="65dp"
+
+        android:layout_centerHorizontal="false"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="11dp"
+        android:src="@drawable/def" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="242dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="2dp"
+        android:text="BLOODSOURCE"
+        android:textColor="#DA0909"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="498dp"
+        android:layout_height="203dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="121dp"
+        android:layout_marginEnd="2dp"
+        android:text="Location: Kolkata  "
+        android:textColor="#D62020"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="498dp"
+        android:layout_height="203dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="171dp"
+        android:layout_marginEnd="2dp"
+        android:text="Date: 5th May, 2021 "
+        android:textColor="#ED3E3E"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="498dp"
+        android:layout_height="203dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="231dp"
+        android:layout_marginEnd="2dp"
+        android:text="Address: Young Star Club, 56/A Nalini Sarkar Street, Bagbazar, Kolkata-028 "
+        android:textColor="#191818"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="498dp"
+        android:layout_height="203dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="291dp"
+        android:layout_marginEnd="2dp"
+        android:text="Contact Person: Arghya Sarkar"
+        android:textColor="#191818"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="498dp"
+        android:layout_height="203dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="325dp"
+        android:layout_marginEnd="2dp"
+        android:text="Contact Number: 7980064314 "
+        android:textColor="#191818"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="252dp"
+        android:layout_marginTop="365dp"
+        android:layout_marginEnd="12dp"
+        android:backgroundTint="#da0909"
+        android:text="Interested"
+        android:textColor="@color/white"
+        app:strokeColor="#272626" />
+
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="498dp"
+        android:layout_height="203dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="465dp"
+        android:layout_marginEnd="2dp"
+        android:text="Location: Howrah"
+        android:textColor="#D62020"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="498dp"
+        android:layout_height="203dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="515dp"
+        android:layout_marginEnd="2dp"
+        android:text="Date: 18th May, 2021 "
+        android:textColor="#ED3E3E"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="498dp"
+        android:layout_height="203dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="565dp"
+        android:layout_marginEnd="2dp"
+        android:text="Address: Naboday Youth Association, Sreepally, Kadamtala Ghat, Howrah"
+        android:textColor="#191818"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="498dp"
+        android:layout_height="203dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="625dp"
+        android:layout_marginEnd="2dp"
+        android:text="Contact Person: Sagnik Saha"
+        android:textColor="#191818"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="498dp"
+        android:layout_height="203dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="665dp"
+        android:layout_marginEnd="2dp"
+        android:text="Contact Number: 8420655524"
+        android:textColor="#191818"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="252dp"
+        android:layout_marginTop="705dp"
+        android:layout_marginEnd="12dp"
+        android:backgroundTint="#da0909"
+        android:text="Interested"
+        android:textColor="@color/white"
+        app:strokeColor="#272626" />
+</RelativeLayout>

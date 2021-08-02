@@ -1,0 +1,62 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<RelativeLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background = "@drawable/gradient_drawable"
+    xmlns:tools = "http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height = "match_parent"
+    tools:context = ".MainActivity"
+    >
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="66dp"
+        android:layout_height="65dp"
+
+        android:layout_centerHorizontal="false"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="11dp"
+        android:src="@drawable/def" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="242dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="2dp"
+        android:text="BLOODSOURCE"
+        android:textColor="#DA0909"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentEnd="true"
+
+        android:layout_centerInParent="false"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="279dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/rectangle_drawable"
+        android:focusable="true"
+        android:hint="Mobile No./E-mail ID"
+        android:textColorHighlight="#ff7eff15"
+        android:textColorHint="#100F0F" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="132dp"
+        android:layout_marginTop="439dp"
+        android:layout_marginRight="12dp"
+        android:text="Register"
+        android:textColor="#DA0909"
+        app:backgroundTint="#F3EDED" />
+
+</RelativeLayout>
